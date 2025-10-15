@@ -1033,7 +1033,7 @@ def process_command(command_text: str):
         speak("Restarting the system.")
         try:
             os.system("shutdown /r /t 0")
-        except Exception:
+        except Exception:  
             speak("I couldn't restart the system.")
         return False
     if cmd in ("log off", "logout", "sign out"):
