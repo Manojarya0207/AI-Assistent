@@ -1,4 +1,4 @@
-# terminator_merged.py
+# terminator.py
 import os
 import sys
 import time
@@ -1208,3 +1208,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Failed to start the application: {e}")
         speak("I have failed to start the application.")
+
